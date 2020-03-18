@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_authorization/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react_authorization/static/js/main.e6d47874.chunk.js",
+    "main.js.map": "/react_authorization/static/js/main.e6d47874.chunk.js.map",
+    "runtime-main.js": "/react_authorization/static/js/runtime-main.d3d2fef8.js",
+    "runtime-main.js.map": "/react_authorization/static/js/runtime-main.d3d2fef8.js.map",
+    "static/js/2.0f921ff3.chunk.js": "/react_authorization/static/js/2.0f921ff3.chunk.js",
+    "static/js/2.0f921ff3.chunk.js.map": "/react_authorization/static/js/2.0f921ff3.chunk.js.map",
+    "index.html": "/react_authorization/index.html",
+    "precache-manifest.683df369ef4a3072d425207e008d8ad1.js": "/react_authorization/precache-manifest.683df369ef4a3072d425207e008d8ad1.js",
+    "service-worker.js": "/react_authorization/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react_authorization/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0f921ff3.chunk.js.LICENSE.txt": "/react_authorization/static/js/2.0f921ff3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react_authorization/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3d2fef8.js",
+    "static/js/2.0f921ff3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.e6d47874.chunk.js"
+  ]
+}
