@@ -11,13 +11,13 @@ const Header = (props) => {
         <div className="header">
             <nav className="navbar navbar-default">
                 <ul className="list-group">
-                    <Link className="list-group-item" to="/">Show Products</Link>
+                    <Link className="list-group-item" to="/show-product">Show Products</Link>
                     <Link className="list-group-item" to="/add-product">Add Product</Link>
                 </ul>
             </nav>
 
             <Switch>
-                <Route path="/" exact component={ShowProduct}/>
+                <Route path="/show-product" exact component={ShowProduct}/>
                 <Route path="/edit-product" exact component={EditProduct}/>
                 <Route path="/add-product" exact component={AddProduct}/>
             </Switch>
