@@ -1,16 +1,10 @@
- import {actions} from './constants'
- 
- const initialState = {
-     someArray: [],
- }
 
- const rootReducer = (state = initialState, action) => {
-    if(action.type === actions.DO_SOMETHING){
-       return {...state, didSomething: action.params} 
-    }
-    else{
-        return state
-    }
- }
+import { combineReducers } from 'redux'
+
+import ProductsReducer from '../Components/ShowProducts/APIs/reducer'
+
+ const rootReducer = combineReducers({
+    ProductsReducer,
+ })
 
  export default rootReducer;

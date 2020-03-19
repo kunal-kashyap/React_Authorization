@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung fold",
+      "price": "$54"
+    },
+    {
+      "id": 2,
+      "name": "Apple Iphone XI",
+      "price": "$74"
+    },
+    {
+      "id": 3,
+      "name": "Oneplus 8",
+      "price": "$44"
+    },
+    {
+      "id": 4,
+      "name": "Moto Razr",
+      "price": "$84"
+    }
+  ]
+}
