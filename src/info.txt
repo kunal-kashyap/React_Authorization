@@ -1,0 +1,5 @@
+Commands
+------------------------------
+
+Run App - npm start
+Run JSON Server - npm run json:server
