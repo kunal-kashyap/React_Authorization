@@ -40,7 +40,7 @@ class ShowProduct extends Component{
              .then((resp) => {
                     if(resp.status === 200) {
                         alert('Product deleted succesfully!')
-                        this.props.history.push('/')
+                        this.props.history.push('/show-product')
                     }
              })
              .catch(err => console.log("Error Occurred", err))
