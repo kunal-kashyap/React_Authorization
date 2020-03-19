@@ -6,11 +6,6 @@
       "id": "1"
     },
     {
-      "name": "Oneplus 8",
-      "price": "501",
-      "id": "2"
-    },
-    {
       "name": "Samsung Galaxy S10",
       "price": "570",
       "id": "3"
@@ -19,6 +14,11 @@
       "name": "Samsung Note 10",
       "price": "810",
       "id": "4"
+    },
+    {
+      "name": "Oneplus 8",
+      "price": "501",
+      "id": "7"
     }
   ]
 }
