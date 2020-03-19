@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 
-import './Header/style.css'
-import ShowProduct from '../ShowProducts'
+import './style.css'
+import ShowProduct from '../../ShowProducts'
+import EditProduct from '../../UpdateProduct'
+import AddProduct from '../../AddProduct'
 
 const Header = (props) => {
     return (
@@ -15,10 +17,9 @@ const Header = (props) => {
             </nav>
 
             <Switch>
-                <Route path="/" component={ShowProduct}/>
-                <Route path="/" component={ShowProduct}/>
-                <Route path="/" component={ShowProduct}/>
-                <Route path="/" component={ShowProduct}/>
+                <Route path="/" exact component={ShowProduct}/>
+                <Route path="/edit-product" exact component={EditProduct}/>
+                <Route path="/add-product" exact component={AddProduct}/>
             </Switch>
         </div>
     )

@@ -19,11 +19,29 @@ class ShowProduct extends Component{
     }
 
     loadhandler = () => {
-
         const {fetchProducts} = this.props;
         axios.get('/products')
              .then((resp) => {
                  resp.status === 200 && fetchProducts(get(resp,'data',[]))
+             })
+             .catch(err => console.log("Error Occurred", err))
+    }
+
+    editProductHandler = (productId) => {
+        const {productsList} = this.props;
+
+        let productDetail = productsList.find((item) => item.id === productId)
+
+        this.props.history.push('/edit-product', {productDetail})
+    }
+    
+    deleteProductHandler = (productId) => {
+        axios.delete(`/products/${productId}`)
+             .then((resp) => {
+                    if(resp.status === 200) {
+                        alert('Product deleted succesfully!')
+                        this.props.history.push('/')
+                    }
              })
              .catch(err => console.log("Error Occurred", err))
     }
@@ -33,7 +51,7 @@ class ShowProduct extends Component{
 
         let Products = !isEmpty(productsList) && productsList.map((product) => {
             return (
-                <Product details={product} />
+                <Product key={product.id} details={product} editProductHandler={this.editProductHandler} deleteProductHandler={this.deleteProductHandler} />
             )
         })
 
