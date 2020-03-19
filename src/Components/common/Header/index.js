@@ -5,6 +5,7 @@ import './style.css'
 import ShowProduct from '../../ShowProducts'
 import EditProduct from '../../UpdateProduct'
 import AddProduct from '../../AddProduct'
+import DeleteProduct from '../../DeleteProduct'
 
 const Header = (props) => {
     return (
@@ -20,6 +21,7 @@ const Header = (props) => {
                 <Route path="/show-product" exact component={ShowProduct}/>
                 <Route path="/edit-product" exact component={EditProduct}/>
                 <Route path="/add-product" exact component={AddProduct}/>
+                <Route path="/delete-product" exact component={DeleteProduct}/>
             </Switch>
         </div>
     )

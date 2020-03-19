@@ -36,14 +36,14 @@ class ShowProduct extends Component{
     }
     
     deleteProductHandler = (productId) => {
-        axios.delete(`/products/${productId}`)
-             .then((resp) => {
-                    if(resp.status === 200) {
-                        alert('Product deleted succesfully!')
-                        this.props.history.push('/show-product')
-                    }
-             })
-             .catch(err => console.log("Error Occurred", err))
+
+        const {productsList} = this.props;
+
+        let productDetail = productsList.find((item) => item.id === productId)
+
+        this.props.history.push('/delete-product', {productDetail})
+
+        
     }
 
     render() {

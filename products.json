@@ -1,19 +1,24 @@
 {
   "products": [
     {
-      "id": 4,
-      "name": "Moto Razr",
-      "price": "85"
+      "name": "Apple Iphone X",
+      "price": "780",
+      "id": "1"
     },
     {
-      "name": "Apple Iphone XI",
-      "price": "46",
-      "id": "IUY70j"
+      "name": "Oneplus 8",
+      "price": "501",
+      "id": "2"
     },
     {
-      "name": "Realme XT",
-      "price": "15",
-      "id": "QW23WE"
+      "name": "Samsung Galaxy S10",
+      "price": "570",
+      "id": "3"
+    },
+    {
+      "name": "Samsung Note 10",
+      "price": "810",
+      "id": "4"
     }
   ]
 }
