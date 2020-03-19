@@ -34,7 +34,7 @@ class EditProduct extends Component {
              .then((resp) => {
                     if(resp.status === 200) {
                         alert('Update succesfull!')
-                        this.props.history.push('/')
+                        this.props.history.push('/show-product')
                     }
              })
              .catch(err => console.log("Error Occurred", err))

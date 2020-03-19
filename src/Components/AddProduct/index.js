@@ -26,7 +26,7 @@ class AddProduct extends Component {
              .then((resp) => {
                     if(resp.status === 201) {
                         alert('Product Added Succesfully!')
-                        this.props.history.push('/')
+                        this.props.history.push('/show-product')
                     }
              })
              .catch(err => console.log("Error Occurred", err))
