@@ -1,6 +1,6 @@
 {
-  "homepage": "http://kunal-kashyap.github.io/react_authorization",
-  "name": "react_authorization",
+  "homepage": "http://kunal-kashyap.github.io/react_crud",
+  "name": "react_crud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
